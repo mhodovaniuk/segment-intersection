@@ -1,5 +1,3 @@
-segment-intersection
-====================
 <p>To run programme you should install:</p>
 <ul>
 <li>SBT - http://www.scala-sbt.org/</li>
