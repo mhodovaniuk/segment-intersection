@@ -23,7 +23,7 @@ class Segment(p1: Point, p2: Point) {
   } else (to.y - from.y) / (to.x - from.x)
 
   val b: Double = if (to.y == from.y) {
-    SegmentType.OX
+    segmentType = SegmentType.OX
     0
   }
   else if (segmentType == SegmentType.OY)
